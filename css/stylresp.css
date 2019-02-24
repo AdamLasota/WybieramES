@@ -1,0 +1,297 @@
+@charset "utf-8";
+/* CSS Document */
+@media all and (min-width:360px) and (max-width:639px){
+.mainContainer {
+	display:block;
+	margin:0%;
+	padding:0%;
+	width:100%;
+	height:20vw;
+}
+#logo_wyszukiwarka {
+  width:100%;
+  margin-top:0%;
+  margin-left:auto;
+  margin-right:auto;
+  border-bottom-style:solid;
+  border-bottom-width:thin;
+  border-bottom-color:#e5e5e5;
+}
+input[name="searchinput"] {
+  float:none;
+  height:12vw; 
+  width:100%;
+  padding-left:5%;
+  margin-top:2%;
+  font-family:'Roboto';
+  font-size:4.5vw;
+  font-weight:400;
+  color:#666666;
+  border-style:solid;
+  border-width:thin;
+  border-color:#e5e8e8;
+}
+input[name="searchinput"]:focus {
+	  border-style:solid;
+  border-width:mwdium;
+  border-color:#af0061;
+background:linear-gradient(to right,#af0061 -30%, white 30%, white 70%,#af0061 130%);
+}
+.wyszukiwarka{
+  position:relative;
+}
+.logo,
+.wyszukiwarka{
+	margin-left:auto;
+	margin-right:auto;
+  width:90%;
+  float:none;
+}
+
+.lupa {
+  background:none;
+  border:none;
+  position:absolute;
+  right:7%;
+  top:28%;
+
+}
+.fas {
+  color:#af0061;
+}
+/*=========navi==========*/
+
+navi_resp {
+	display:block;
+	float:none;
+  width:100%;
+  margin-top:3%;
+  margin-left:0;
+  overflow:hidden;
+}
+navi_resp ol{
+	list-style-type:none;
+}
+navi_resp ol li{
+	width:100%;
+	  float:left;
+  margin-right:20px;
+  font-family:'Roboto';
+  font-size:15px;
+ border-style:solid;
+  padding:10px 15px;
+  border-color:#e5e5e5;
+  border-width:thin;
+  text-align:center;
+}
+navi_resp ol li a {
+  text-decoration:none;
+  color:#af0061;
+  line-height:28px;
+}
+.ukryj {
+	display:block;
+	background:#0F0;
+	width:50%;
+	height:30vw;
+}
+
+navi_resp ol li ul {
+  padding:0; 
+  width:99%;
+  margin-top:4%;
+  margin-left:-9%;
+  background:white;
+  border-left-style:solid;
+  border-left-width:thin;
+  border-left-color:#af0061;
+    border-right-style:solid;
+  border-right-width:thin;
+  border-right-color:#af0061;
+  
+}
+navi_resp ol li ul li{
+	display:none;
+}
+navi_resp ol li:hover ul li{
+	display:block;
+}
+navi_resp  ol li ul li ul {
+	display:none;
+	float:left;
+	  width:100%;
+  height:25px;
+  float:left;
+  padding:0;
+  border-style:none;
+  float:none;
+  list-style-type:none;
+  text-align:center;
+  font-size:14px;
+  margin:2% 0%;
+  font-weight:400;
+}
+navi_resp ol li ul li:hover ul{
+	display:block;
+}
+
+/*==============boxy============*/
+#zawartosc {
+	display:block;
+  width:100%;
+  margin-left:0;
+  padding-bottom:4%;
+    border-bottom-style:solid;
+  border-bottom-width:thin;
+  border-bottom-color:#e5e5e5;
+}
+#box {
+  display:block;
+  width:98%;
+  margin-left:auto;
+  margin-right:auto;
+  border-style:solid;
+  border-width:thin;
+  border-color:#af0061;
+  float:none;
+  margin-top:5%;
+  transition:1s;
+}
+.zdj_lew,
+.zdj_praw{
+  display:block;
+  float:none;
+  width:50%;
+  height:43vw;
+  margin-bottom:-1%;
+  margin-left:auto;
+  margin-right:auto;
+}
+.opis_praw,
+.opis_lew{
+  margin-left:auto;
+  margin-right:auto;
+  display:block;
+  float:none;
+  width:80%;
+}
+.opis_praw h1,
+.opis_lew h1 {
+  font-family:'Roboto';
+  color:#af0061;
+  font-size:6vw;
+  font-weight:500;
+  text-align:center;
+  text-transform:uppercase;
+  margin-left:0;
+  margin-right:0;
+  margin-top:3%;
+}
+.opis_praw h2,
+.opis_lew h2 {
+  margin-top:3%;
+  font-family:'Roboto';
+  font-weight:400;
+  font-size:4.5vw;
+  font-weight:500;
+  color:#6e6e6e;
+  text-align:center;
+}
+.opis_praw p,
+.opis_lew p {
+  display:block;
+  width:98%;
+  color:#6e6e6e;
+  font-family:'Roboto';
+  paddin-left:0;
+   margin-top:4%;
+   margin-bottom:4%;
+   margin-left:auto;
+   margin-right:auto;
+   text-align:center;
+}
+.opis_praw p a,
+.opis_lew p a {
+  text-decoration:none;
+  font-size:4vw;
+  text-align:center;
+  font-weight:500;
+  color:#af0061;
+  background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+  transition: 1s;
+}
+.opis_praw p a:hover{
+  	background-size: 100% .1em;
+}
+/* ==== Footer==== */
+/* CSS */
+footer {
+  margin-left:auto;
+  margin-right:auto;
+  margin-bottom:0;
+  margin-top:5%;
+  display:block;
+  width:100%;
+  font-family:'Roboto';
+  font-size:3vw;
+  font-weight:500;
+  color:#666666;
+}
+#lewy {
+  display:block;
+  width:100%;
+  float:left;
+  margin-left:auto;
+  margin-right:auto;
+  text-align:left;
+
+
+}
+#lewy img{
+  margin-top:3%;
+  margin-left:3%;
+  margin-right:2%;
+  float:left;
+  width:32%;
+  height:60%
+}
+.opis{
+	width:80%;
+  float:none;
+  margin-left:auto;
+  margin-right:auto; 
+  margin-top:2%;
+}
+.opis p {
+  margin-top:0;
+  margin-bottom:0;
+  line-height:15px;
+}
+#prawy {
+  width:98%;
+  float:left;
+  margin-top:2%;
+  margin-right:auto;
+  margin-left:auto;
+  text-align:center;
+}
+
+.opis a {
+  text-decoration:none; 
+  color:#af0061;
+  	background: linear-gradient(currentColor, currentColor) bottom / 0 .1em no-repeat;
+	transition: 1s;
+}
+.opis p a:hover {
+  color:#af0061;
+  background-size: 100% .1em;
+}
+.spacing {
+	display:block;
+	width:100%;
+	height:0.1vw;
+}
+
+}
+
+
